@@ -1,0 +1,254 @@
+*{
+    margin: auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    background: white;
+    padding: 100px;
+}
+
+body{
+    background: #f4f7f6;
+    max-width: 1200px;
+    margin: auto;
+}
+
+h2{
+    font-family: 'Zodiak-Variable';
+    color: #1c1d23;
+    line-height: 45px;
+    font-weight: 700;
+}
+
+h3{
+    font-family: 'Zodiak-Variable';
+    color: #1c1d23;
+    line-height: 25px;
+    font-weight: 700;
+}
+
+p{
+    font-family: 'Zodiak-Variable';
+    line-height: 20px;
+    font-weight: 500;
+}
+
+
+
+/*SECTION NAV*/
+
+nav{
+    padding: 20px 0px;
+}
+
+.nav-parent{
+    display: flex;
+    
+}
+
+.enfant-logo{
+    width: 15%;
+    margin-right: 60%;
+}
+
+.enfant-User{
+    align-items: center;
+}
+
+.logIn{
+    background-image: url(Images/LogIn.svg);
+    padding: 25px;
+    display: inline-block;
+}
+
+.Buy{
+    background-image: url(Images/Buy.svg);
+    padding: 25px;
+    display: inline-block;
+}
+
+
+
+/*page-header*/
+
+.page-header{
+    padding: 10%;
+    display: flex;
+    text-align: center;
+    
+}
+
+.page-header a{
+    background-repeat: no-repeat;
+    padding: 30%;
+    background-position: center;
+    text-decoration: none;
+    font-size: 20px;
+    color: #f4f7f6;
+    font-variant: small-caps;
+    font-family: 'Zodiak-Variable';
+    font-weight: 700;
+    letter-spacing: 2px;
+
+}
+
+.column1{
+    width: calc(100% / 3);
+}
+
+.column2{
+    width: calc(100% / 3);
+    display: flex;
+    flex-direction: column;
+}
+
+.column3{
+    width: calc(100% / 3);
+}
+
+.btn-menu{
+    background-image: url(Images/feuille_orange.svg);
+}
+
+.btn-magazine{
+    background-image: url(Images/feuille_orange.svg);
+}
+
+.btn-about{
+    background-image: url(Images/feuille_orange.svg);
+}
+
+.btn-store{
+    background-image: url(Images/feuille_orange.svg);
+
+}
+
+.btn-maison{
+    background-image: url(Images/mHeader.svg);
+}
+
+.page-header a:hover{
+    opacity: 30%;
+    
+}
+
+
+
+/*SECTION CTA*/
+
+
+
+.cta{
+    text-align: center;
+    background-image: url(Images/BG_cta.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 80px 0px;
+}
+
+.cta-flex{
+    display: flex;
+    justify-content: center;
+}
+
+
+input{
+    font-family: 'Zodiak-Variable';
+    padding-bottom: 10px;
+    text-align: center;
+    border-radius: 3%;
+    border: #628393 1px;
+}
+
+.submit{
+   padding: 10px 0px; 
+}
+
+.btn-submit{
+    color: #f4f7f6;
+    background-color: #1c1d23;
+    border-radius: 50%;
+    padding: 2%;
+    font-variant: small-caps;
+}
+
+.btn-submit:hover{
+    background-color: #628393;
+}
+
+
+/* SECTION MENU*/
+
+.menu{
+    padding: 80px 0px;
+}
+
+.image{
+    height: 175px;
+}
+
+.card-flex{
+    display: flex;
+    gap: 20px; 
+    width: 90%;
+}
+
+.card{
+    width: calc(100% / 3 - 20px);
+    margin-left: auto;
+    margin-right: auto;
+    background-repeat: no-repeat;
+}
+
+.card:hover{
+    opacity: 70%;
+}
+
+.card p{
+    text-align: center;
+    font-family: 'Zodiak-Variable';
+    color: #628393;
+    font-variant: small-caps;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+
+.card-01{
+    background-image: url(Images/SVG/image.svg);
+}
+
+.card-02{
+    background-image: url(Images/SVG/image2.svg);
+}
+
+.card-03{
+    background-image: url(Images/SVG/image3.svg);
+}
+
+
+/*footer*/
+
+.footer{
+    background-color: #628393;
+    padding: 20px 0px;
+}
+
+.footer-flex{
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    gap: 10%;
+    max-width: 90%;
+}
+
+.footer h2 {
+    color: #f4f7f6;
+}
+
+.footer p {
+    color: #f4f7f6;
+}
